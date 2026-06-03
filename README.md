@@ -28,10 +28,14 @@ The core intelligence of the advisory system is built on a multi-model machine l
 ```bash
    git clone [https://github.com/Shivaay-Bajoria/RoboAdvisory-System.git](https://github.com/Shivaay-Bajoria/RoboAdvisory-System.git)
    cd RoboAdvisory-System
-Install the necessary data science and frontend dependencies:
-Bash
+```
+
+2. Install the necessary data science and frontend dependencies:
+```bash
    pip install streamlit scikit-learn pandas numpy
-Launch the Streamlit application:
-Bash
+```
+3. Launch the Streamlit application:
+```bash
    streamlit run app.py
+```
 Access the dashboard via your local browser at http://localhost:8501.
